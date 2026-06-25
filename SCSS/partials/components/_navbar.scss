@@ -3,9 +3,10 @@
 .navbar {
     @include mixin.flex(row, space-between, center);
     padding: 16px;
+    flex-wrap: wrap;
 }
-.logo-tt {
-    width: 300px;
+    .logo-tt {
+        width: 300px;
 }
 
 .navbar ul {

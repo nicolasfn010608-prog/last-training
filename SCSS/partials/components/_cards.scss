@@ -2,6 +2,8 @@
 
 .card-container {
     @include mixin.flex(row, space-around, center);
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 .card {

@@ -17,6 +17,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+  flex-wrap: wrap;
 }
 
 .logo-tt {
@@ -41,18 +42,25 @@ a {
   font-size: 24px;
 }
 
-.baner {
-  background-image: linear-gradient(to bottom, white, darkgreen);
-}
-
+/* .baner {
+    background-image: linear-gradient(to bottom, white, darkgreen);
+} */
 .baner-img {
   width: 50%;
   display: block;
   margin: 0 auto;
 }
 
+header {
+  background-image: linear-gradient(to bottom, white, darkgreen);
+}
+
 main {
   background-color: darkgreen;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, darkgreen, black);
 }
 
 .card-container {
@@ -60,6 +68,8 @@ main {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 
 .card {
@@ -74,8 +84,16 @@ main {
   width: 100%;
 }
 
-footer {
-  background-image: linear-gradient(to bottom, darkgreen, black);
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  flex-wrap: wrap;
+}
+.copyright .logo-tt {
+  width: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
