@@ -1,17 +1,15 @@
+@use "../utilities/mixin";
+
 .card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: space-around;
-    gap: 1rem;
-    background-color: darkslategray;
+    @include mixin.flex(row, space-around, center);
 }
 
 .card {
     width: 500px;
     padding: 1rem;
-    border: 1px solid green;
+    border: 1px solid black;
     border-radius: 1rem;
+    background-color: white;
 }
 
 .card img{
