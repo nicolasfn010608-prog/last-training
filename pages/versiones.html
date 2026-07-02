@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Document</title>
 </head>
@@ -31,38 +34,43 @@
     </header>
     
     <main>
-        <section class="card-container">
-        <div class="card">
+
+        <section class="baner">
+            <img class="baner-img" src="../img/multiverso.jpg" alt="Tortugas">
+        </section>
+
+        <section data-aos="zoom-out-right" class="card-container">
+        <div data-aos="zoom-out-right" class="card">
             <img src="../img/comics-originales.jpg" alt="tortugas de los cómics originales">
             <h4>Mirage Cómics (1984)</h4>
             <p>Originalmente iba a ser un solo número, pero debido a la gran popularidad que tomó, se expandió</p>
         </div>
 
-        <div class="card">
+        <div data-aos="zoom-out-left" class="card">
             <img src="../img/serie-1987.webp" alt="Tortugas de 1987">
             <h4>Las Ninja Tortugas</h4>
             <p>La primera serie animada que desató la tortugo-manía en los 90, y tuvo que volverse infantil porque Mirage era para mayores</p>
         </div>
 
-        <div class="card">
+        <div data-aos="zoom-out-right" class="card">
             <img src="../img/serie-2003.jpg" alt="Tortugas del 2003">
             <h4>Tortugas Ninja (2003)</h4>
             <p>Esta serie es una adaptación directa de los cómics de Mirage, se hizo porque a uno de los cradores nunca le gustó el humor del 87</p>
         </div>
 
-        <div class="card">
+        <div data-aos="zoom-out-left" class="card">
             <img src="../img/serie-2012.webp" alt="Tortugas del 2012">
             <h4>Tortugas Ninja (2012)</h4>
             <p>Luego de años sin contenido, esta serie toma lo mejor del 2003 y 1984 y lo trae a la actualidad</p>
         </div>
 
-        <div class="card">
+        <div data-aos="zoom-out-right" class="card">
             <img src="../img/serie-2018.jpg" alt="Tortugas del 2018">
             <h4>El Ascenso de las Tortugas Ninja (2018)</h4>
             <p>La serie más distinta de las tortugas, con un formato infantil y episódico como Bob Esponja</p>
         </div>
 
-        <div class="card">
+        <div data-aos="zoom-out-left" class="card">
             <img src="../img/serie-2024.webp" alt="Tortugas del 2024">
             <h4>Tortugas Ninja: Historias Mutantes (2024)</h4>
             <p>Esta serie consiste en historias cortas y modernas inspiradas en la serie de 1987</p>
@@ -77,5 +85,10 @@
         </section>
     </footer>
 
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

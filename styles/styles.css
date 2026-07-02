@@ -11,6 +11,19 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 20px;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -42,25 +55,22 @@ a {
   font-size: 24px;
 }
 
-/* .baner {
-    background-image: linear-gradient(to bottom, white, darkgreen);
-} */
 .baner-img {
-  width: 50%;
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
 
 header {
-  background-image: linear-gradient(to bottom, white, darkgreen);
+  background-image: linear-gradient(to bottom, white, #539987);
 }
 
 main {
-  background-color: darkgreen;
+  background-color: #539987;
 }
 
 footer {
-  background-image: linear-gradient(to bottom, darkgreen, black);
+  background-image: linear-gradient(to bottom, #539987, black);
 }
 
 .card-container {
